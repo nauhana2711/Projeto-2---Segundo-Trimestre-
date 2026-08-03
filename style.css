@@ -38,5 +38,7 @@ h1{
 }
 .footer{
     background-color: darkblue;
+    padding: 15px 15px;
+    color:rgb(23, 13, 110) ;
 }
 
