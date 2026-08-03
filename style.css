@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: blue;
 }
 
 .cartao {
@@ -16,12 +17,23 @@
     height: 200px;
 }
 
+.cartao-imagem {
+    width: 100%;
+}
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: aqua;
+}
+main{
+    flex: 1;
 }
 
-.cartao-imagem {
-    width: 100%;
+.cabecalho-link{
+    color: crimson;
 }
+h1{
+    color: crimson;
+}
+
