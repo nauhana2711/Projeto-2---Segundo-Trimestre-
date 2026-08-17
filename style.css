@@ -44,14 +44,16 @@ h1{
     color:rgb(23, 13, 110) ;
 }
 
-.cartao.interno{
+.cartao-interno{
 position: relative;
 transition: trasform 0.8s;
 transform-style: preserve-3d;
 
 
+
+
 }
-.cartao.hover .cartao-interno{
+.cartao:hover .cartao-interno{
 transform: rotateY(180deg);
 
 }
